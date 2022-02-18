@@ -1,0 +1,9 @@
+{
+    "name": "Note finder",
+    "description": "Add useful docs and notes",
+    "version": "1.0",
+    "manifest_version": 3,
+    "action": {
+        "default_popup": "public/index.html"
+    }
+}
