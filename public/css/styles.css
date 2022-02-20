@@ -122,3 +122,7 @@ button:hover {
 .task a {
     width: 10px;
 }
+
+.dz0-none {
+    display: none;
+}
