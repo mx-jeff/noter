@@ -32,7 +32,7 @@ footer{
     align-items: center;
     justify-content: center;
     margin: 1rem;
-    flex-direction: column;
+    flex-direction: row;
 }
 
 footer a {
@@ -117,12 +117,29 @@ button:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: auto;
 }
 
-.task a {
-    width: 10px;
+.task div {
+    width: inherit;
+}
+
+.task div a {
+    text-decoration: none;
 }
 
 .dz0-none {
     display: none;
+}
+
+img { 
+    width: 10px;
+}
+
+img[alt="add-task"]{
+    width: 15px;
+}
+
+.add-task-container a { 
+    width: auto;
 }

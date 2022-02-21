@@ -1,4 +1,4 @@
-import { logger, sleep, checkStorage } from "./functions.js"
+import { logger, sleep, checkStorage, updateTask } from "./functions.js"
 
 
 export function addNotes(){
@@ -24,6 +24,8 @@ export function addNotes(){
             logger("Mensagem enviada com sucesso!", button)
             await sleep(1000)
             checkStorage(addBox)
+            updateTask()
+
         } else{
             logger("Campos vazios! por favor insira o assunto e mensagem!", button)
         }

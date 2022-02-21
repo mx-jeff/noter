@@ -1,3 +1,6 @@
+import { listNotes } from "./listNotes.js"
+
+
 export const sleep = ms => new Promise(r => setTimeout(r, ms))
 
 
@@ -58,3 +61,15 @@ export function copyTextToClipboard(text) {
     });
 }
   
+
+// delete task
+export function deleteTask(value){
+    localStorage.removeItem(value)
+}
+
+export function updateTask(){
+    const taskContainer = document.querySelector(".tasks")
+    taskContainer.innerHTML = ""
+    const upItems = {...localStorage}
+    listNotes(upItems)
+}
