@@ -7,7 +7,8 @@ Save notes as extensions
 - [x] create form
 - [x] create notes list
 - [x] copy to clipboard
-- [ ] add icon image
+- [x] add icon image
+- [ ] add dark mode
 - [ ] add delete
 - [ ] insert automatily on site
 - [ ] opctional setup a external api to save it!

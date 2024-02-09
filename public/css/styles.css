@@ -9,7 +9,6 @@
 
 body {
     width: 300px;
-    /* height: 100vh; */
     margin: 1rem;
 }
 
@@ -118,6 +117,7 @@ button:hover {
     justify-content: space-between;
     align-items: center;
     width: auto;
+    margin: .1rem;
 }
 
 .task div {
